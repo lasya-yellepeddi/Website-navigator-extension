@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Navigator Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="assistant-container">
+        <div class="avatar">🤖</div>
+        <div class="greeting">Navigator Assistant</div>
+        <div class="subtext">How can I help you explore this page?</div>
+
+        <input type="text" id="featureInput" placeholder="e.g., dark mode, contact, settings" />
+
+        <button id="helpBtn">Help Me</button>
+        <button id="clearBtn">Clear</button>
+
+
+        <div class="nav-buttons">
+            <button id="prevBtn">⬅️ Prev</button>
+            <button id="nextBtn">Next ➡️</button>
+        </div>
+
+        <div id="matchCounter" class="subtext"></div>
+
+
+
+
+        <div id="responseArea"></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+
+</html>
